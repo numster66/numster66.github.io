@@ -296,9 +296,9 @@
 
   function getDevice() {
     // -- clear --
-    while (videoSelect.lastChild) {
-      videoSelect.removeChild(videoSelect.lastChild);
-    }
+    // while (videoSelect.lastChild) {
+    //  videoSelect.removeChild(videoSelect.lastChild);
+    // }
 
     // -- enum device --
     navigator.mediaDevices.getUserMedia({ video: true, audio: true })
