@@ -289,12 +289,14 @@
 
 
   // ---------------------- media handling ----------------------- 
-  // ---- device list ---
-  let audioSelect = document.getElementById('audioSource');
-  let videoSelect = document.getElementById('videoSource');
-  let cameraSizeSelect = document.getElementById('camera_size_select');
+
 
   function getDevice() {
+    // ---- device list ---
+    let audioSelect = document.getElementById('audioSource');
+    let videoSelect = document.getElementById('videoSource');
+    let cameraSizeSelect = document.getElementById('camera_size_select');
+
     // -- clear --
     // while (videoSelect.lastChild) {
     //  videoSelect.removeChild(videoSelect.lastChild);
